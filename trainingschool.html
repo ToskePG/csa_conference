@@ -393,10 +393,24 @@
             <a href="#" rel="modal:close" class="dugmic">Close</a>
           </div>
           <div id="work6" class="modal">
-            <p>Soon</p>
-            <p>&nbsp;</p>
+            <h3>Building Evidence: Systematic Review and Meta-analysis Essentials</h3>
+            <p><strong>Course Description:</strong></p>
+            <p>
+              This course provides a comprehensive introduction to systematic reviews and meta-analyses, 
+              focusing on their importance in evidence-based research. Participants will learn how to design, 
+              conduct, and interpret systematic reviews using essential frameworks like PICOS 
+              (Population, Intervention, Comparison, Outcomes, and Study Design).
+            </p>
+            <p>
+              Key tools and guidelines, such as PRISMA 
+              (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) 
+              for reporting standards and PROSPERO for systematic review registration, will be covered.
+              By the end of the course, participants will be equipped to critically appraise 
+              literature, synthesize data, and apply these methodologies in their research projects.
+            </p>
             <a href="#" rel="modal:close" class="dugmic">Close</a>
           </div>
+          
         </div>
         <div id="wsbnavbar1">
           <ul class="nbstyle2 sf-shadow">
@@ -578,16 +592,64 @@
             }
 
             .modal {
-              width: 800px;
-              padding: 70px 0 0 230px;
-              max-width: 600px !important;
+              width: 90%;
+              max-width: 600px;
+              padding: 30px;
               margin: auto;
               position: relative;
-              z-index: 999 !important;
-              text-align: justify !important;
-              font-size: 13px;
-              line-height: 140%;
-              font-family: Verdana, Arial, sans-serif;
+              z-index: 999;
+              text-align: justify;
+              font-size: 14px;
+              line-height: 1.6;
+              font-family: 'Arial', sans-serif;
+              background-color: #ffffff; /* White background */
+              border-radius: 10px; /* Rounded corners */
+              box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for modern look */
+            }
+
+            .modal h3 {
+              font-size: 20px;
+              font-weight: bold;
+              margin-bottom: 15px;
+              color: #333333; /* Darker text for the title */
+              text-align: center; /* Center align the heading */
+            }
+
+            .modal p {
+              margin-bottom: 15px; /* Add spacing between paragraphs */
+              color: #555555; /* Softer text color for content */
+            }
+
+            .modal a.dugmic {
+              display: inline-block;
+              margin-top: 20px;
+              text-decoration: none;
+              font-weight: bold;
+              color: #ffffff;
+              background-color: #007BFF; /* Bootstrap-like blue button */
+              padding: 10px 20px;
+              border-radius: 5px;
+              text-align: center;
+              transition: background-color 0.3s ease;
+            }
+
+            .modal a.dugmic:hover {
+              background-color: #0056b3; /* Darker blue on hover */
+            }
+
+            .modal-close {
+              position: absolute;
+              top: 15px;
+              right: 15px;
+              font-size: 18px;
+              font-weight: bold;
+              color: #999999;
+              cursor: pointer;
+              transition: color 0.3s ease;
+            }
+
+            .modal-close:hover {
+              color: #333333;
             }
 
             .blocker {
