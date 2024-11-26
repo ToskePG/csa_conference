@@ -1,0 +1,329 @@
+@charset "UTF-8";
+
+h1, h2, h3, h4, h5, h6, pre, code {	font-size: 1em;}
+h1, h2, h3, h4, h5, h6, pre, form, body, html, p, fieldset, input {margin: 0; padding: 0;}
+body {line-height: 1;}
+html, img {border: 0;}
+blockquote {padding:0;}
+html, body {width: 100%; height: 100%;}
+ul,ol {margin: 0px; padding: 0 0 0 30px;}
+:focus {outline: 0;}
+
+.photo-background {
+
+}
+.content-background {
+border-bottom-width: 10px;
+
+}
+.text {
+font-size: 13px;
+line-height: 110%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.header {
+font-size: 24px;
+line-height: 110%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.login-textbox {
+border-top-width: 1px;
+border-top-style: solid;
+border-top-color: #C4BBB5;
+border-right-width: 1px;
+border-right-style: solid;
+border-right-color: #C4BBB5;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #C4BBB5;
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: #C4BBB5;
+padding-top: 3px;
+padding-left: 2px;
+
+}
+.login-link a:link, .login-link a:visited, .login-link a:active {
+font-weight: bold;
+font-size: 12px;
+line-height: 150%;
+color: #FFFFFF;
+text-decoration: none;
+
+}
+.login-hoverlink a:hover {
+font-weight: bold;
+font-size: 12px;
+line-height: 150%;
+color: #FFFFFF;
+text-decoration: underline;
+
+}
+.date {
+font-weight: bold;
+font-size: 13px;
+line-height: 120%;
+color: #CD531F;
+text-decoration: underline;
+
+}
+.readmore-link a:link, .readmore-link a:visited, .readmore-link a:active {
+font-weight: bold;
+color: #F78A13;
+text-decoration: none;
+
+}
+.readmore-hoverlink a:hover {
+font-weight: bold;
+color: #F78A13;
+text-decoration: underline;
+
+}
+.welcome-background {
+background-image: url('../images/nbimg5.gif');
+background-repeat: repeat-x;
+
+}
+.header2 h2 {
+font-size: 16px;
+color: #666666;
+text-decoration: underline;
+
+}
+.header1 h1 {
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+color: #C04E1D;
+
+}
+.footer-link a:link, .footer-link a:visited, .footer-link a:active {
+font-size: 12px;
+color: #888888;
+text-decoration: none;
+
+}
+.footer-hoverlink a:hover {
+font-size: 12px;
+color: #FFFFFF;
+text-decoration: underline;
+
+}
+.slika-lijevo img {
+margin-right: 10px;
+float: left;
+
+}
+.dugmence {
+    background:url(../images/dugmence.jpg) no-repeat;
+    cursor:pointer;
+    width: 400px;
+    height: 45px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+	.nbstyle2, .nbstyle2 * {
+    margin:         0;
+    padding:        0;
+    list-style:     none;
+}
+.nbstyle2 {
+    line-height:    1.0;
+}
+.nbstyle2 ul {
+    position: absolute;
+    top: -999em;
+            width: 220px;
+    }
+
+.nbstyle2 ul li {
+    width: 100%;
+}
+.nbstyle2 li:hover {
+        visibility:     inherit; 
+}
+.nbstyle2 li {
+    float: left;	
+    position: relative;
+}
+.nbstyle2 a {
+    display:        block;
+    position:       relative;
+    text-decoration: none;
+}
+.nbstyle2 li:hover ul,
+.nbstyle2 li.sfHover ul {
+                                    	                left: 180px;        		
+	                        top: 0;
+        z-index:        99;
+}
+ul.nbstyle2 li:hover li ul,
+ul.nbstyle2 li.sfHover li ul {
+    top: -999em;
+}
+ul.nbstyle2 li li:hover ul,
+ul.nbstyle2 li li.sfHover ul {
+        	           left: 220px;		
+	            top: 0;
+}
+ul.nbstyle2 li li:hover li ul,
+ul.nbstyle2 li li.sfHover li ul {
+    top:            -999em;
+}
+
+ul.nbstyle2 {
+                        width: 100%;     
+            height: 100%;
+                    }
+.nbstyle2, .nbstyle2 li {
+    width: 180px;
+}	
+
+.nbstyle2 a.listitem, .nbstyle2 a.firstitem, .nbstyle2 a.lastitem {
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+                font-size: 14px; 
+                                                margin-right: 0px;
+                margin-bottom: 0px;	
+                        display: block;
+                line-height: 34px;
+            	color: #719359;
+                                                    border-bottom: 1px solid  #E3E3E3;
+                    width: 180px;
+    }
+
+.nbstyle2 a.listitem:hover, .nbstyle2 li:hover a.listitem, .nbstyle2 li.sfHover a.listitem,
+.nbstyle2 a.firstitem:hover, .nbstyle2 li:hover a.firstitem, .nbstyle2 li.sfHover a.firstitem, 
+.nbstyle2 a.lastitem:hover, .nbstyle2 li:hover a.lastitem, .nbstyle2 li.sfHover a.lastitem {
+                                color: #D90000;
+                                                }
+
+
+.nbstyle2 a.listitem span.mainitem,
+.nbstyle2 a.firstitem span.mainitem,
+.nbstyle2 a.lastitem span.mainitem {
+                            padding-left: 10px;
+                                                                           display: block;
+     }
+
+
+
+
+
+
+
+	
+
+
+
+.nbstyle2 li ul a {
+    display: block;
+                border-top: 1px solid  #E3E3E3;
+                border-right: 1px solid  #E3E3E3;
+                    border-left: 1px solid  #E3E3E3;
+            	height: 34px;
+            	line-height: 34px;
+                            padding-left: 20px;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+                font-size: 14px; 
+                                color: #719359;
+                        background-color: #FFFFFF;
+                }
+.nbstyle2 li ul a.sub-last {
+    display: block;
+                        border-bottom: 1px solid  #E3E3E3;
+        }
+
+* html .nbstyle2 a.listitem, * html .nbstyle2 a.firstitem, * html .nbstyle2 a.lastitem {
+    cursor: pointer;
+}
+* html .nbstyle2 li ul a {
+    height: 1%;
+    cursor: pointer;
+}
+*+html .nbstyle2 a.listitem, *+html .nbstyle2 a.firstitem, *+html .nbstyle2 a.lastitem {
+    cursor: pointer;
+}
+
+       .nbstyle2 li ul a:hover, .nbstyle2 li ul li:hover > a {
+    outline: 0;
+                                        color: #D90000;
+                            }
+#ifldasb2 .nbstyle2 li.nav-ifldasb2 a.firstitem, .ifldasb2 .nbstyle2 li.nav-ifldasb2 a.firstitem, #ifldasb96 .nbstyle2 li.nav-ifldasb96 a.listitem, .ifldasb96 .nbstyle2 li.nav-ifldasb96 a.listitem, #ifldasb100 .nbstyle2 li.nav-ifldasb100 a.listitem, .ifldasb100 .nbstyle2 li.nav-ifldasb100 a.listitem, #ifldasb101 .nbstyle2 li.nav-ifldasb101 a.listitem, .ifldasb101 .nbstyle2 li.nav-ifldasb101 a.listitem, #ifldasb156 .nbstyle2 li.nav-ifldasb156 a.listitem, .ifldasb156 .nbstyle2 li.nav-ifldasb156 a.listitem, #ifldasb174 .nbstyle2 li.nav-ifldasb174 a.listitem, .ifldasb174 .nbstyle2 li.nav-ifldasb174 a.listitem, #ifldasb181 .nbstyle2 li.nav-ifldasb181 a.listitem, .ifldasb181 .nbstyle2 li.nav-ifldasb181 a.listitem, #ifldasb170 .nbstyle2 li.nav-ifldasb170 a.listitem, .ifldasb170 .nbstyle2 li.nav-ifldasb170 a.listitem, #ifldasb103 .nbstyle2 li.nav-ifldasb103 a.listitem, .ifldasb103 .nbstyle2 li.nav-ifldasb103 a.listitem, #ifldasb109 .nbstyle2 li.nav-ifldasb109 a.listitem, .ifldasb109 .nbstyle2 li.nav-ifldasb109 a.listitem, #ifldasb110 .nbstyle2 li.nav-ifldasb110 a.listitem, .ifldasb110 .nbstyle2 li.nav-ifldasb110 a.listitem, #ifldasb157 .nbstyle2 li.nav-ifldasb157 a.listitem, .ifldasb157 .nbstyle2 li.nav-ifldasb157 a.listitem, #ifldasb111 .nbstyle2 li.nav-ifldasb111 a.listitem, .ifldasb111 .nbstyle2 li.nav-ifldasb111 a.listitem, #ifldasb112 .nbstyle2 li.nav-ifldasb112 a.listitem, .ifldasb112 .nbstyle2 li.nav-ifldasb112 a.listitem, #ifldasb146 .nbstyle2 li.nav-ifldasb146 a.lastitem, .ifldasb146 .nbstyle2 li.nav-ifldasb146 a.lastitem {
+                                color: #D90000;
+                                                }
+ 	
+
+
+.nbstyle2 li ul a.sf-with-ul {
+            padding-right:  2.25em;    	
+            min-width:      1px; 
+}
+.nbstyle2 a span.sf-sub-indicator {
+    position: absolute;
+    display: block;
+            right: 0.75em;    	
+        top: 50%;
+            width: 8px;
+        height: 13px;
+        margin-top: -6.5px;
+            text-indent:    -999em;
+    overflow:       hidden;    
+}
+
+.nbstyle2 a.listitem span.sf-sub-indicator,
+.nbstyle2 a.firstitem span.sf-sub-indicator, 
+.nbstyle2 a.lastitem span.sf-sub-indicator {
+    background-image: url('../images/sub-menu-arrow-green.gif');
+    background-repeat: no-repeat;   
+}
+.nbstyle2 a.listitem:hover span.sf-sub-indicator,
+.nbstyle2 a.firstitem:hover span.sf-sub-indicator, 
+.nbstyle2 a.lastitem:hover span.sf-sub-indicator,
+.nbstyle2 li:hover a.listitem span.sf-sub-indicator,
+.nbstyle2 li:hover a.firstitem span.sf-sub-indicator,
+.nbstyle2 li:hover a.lastitem span.sf-sub-indicator,
+.nbstyle2 li.sfHover a.listitem span.sf-sub-indicator,
+.nbstyle2 li.sfHover a.firstitem span.sf-sub-indicator,
+.nbstyle2 li.sfHover a.lastitem span.sf-sub-indicator {
+    background-image: url('../images/sub-menu-arrow-brown.gif');
+    background-repeat: no-repeat;   
+}
+#ifldasb2 .nbstyle2 li.nav-ifldasb2 a.listitem span.sf-sub-indicator, .ifldasb2 .nbstyle2 li.nav-ifldasb2 a.listitem span.sf-sub-indicator, #ifldasb2 .nbstyle2 li.nav-ifldasb2 a.firstitem span.sf-sub-indicator, .ifldasb2 .nbstyle2 li.nav-ifldasb2 a.firstitem span.sf-sub-indicator, #ifldasb2 .nbstyle2 li.nav-ifldasb2 a.lastitem span.sf-sub-indicator, .ifldasb2 .nbstyle2 li.nav-ifldasb2 a.lastitem span.sf-sub-indicator, #ifldasb96 .nbstyle2 li.nav-ifldasb96 a.listitem span.sf-sub-indicator, .ifldasb96 .nbstyle2 li.nav-ifldasb96 a.listitem span.sf-sub-indicator, #ifldasb96 .nbstyle2 li.nav-ifldasb96 a.firstitem span.sf-sub-indicator, .ifldasb96 .nbstyle2 li.nav-ifldasb96 a.firstitem span.sf-sub-indicator, #ifldasb96 .nbstyle2 li.nav-ifldasb96 a.lastitem span.sf-sub-indicator, .ifldasb96 .nbstyle2 li.nav-ifldasb96 a.lastitem span.sf-sub-indicator, #ifldasb100 .nbstyle2 li.nav-ifldasb100 a.listitem span.sf-sub-indicator, .ifldasb100 .nbstyle2 li.nav-ifldasb100 a.listitem span.sf-sub-indicator, #ifldasb100 .nbstyle2 li.nav-ifldasb100 a.firstitem span.sf-sub-indicator, .ifldasb100 .nbstyle2 li.nav-ifldasb100 a.firstitem span.sf-sub-indicator, #ifldasb100 .nbstyle2 li.nav-ifldasb100 a.lastitem span.sf-sub-indicator, .ifldasb100 .nbstyle2 li.nav-ifldasb100 a.lastitem span.sf-sub-indicator, #ifldasb101 .nbstyle2 li.nav-ifldasb101 a.listitem span.sf-sub-indicator, .ifldasb101 .nbstyle2 li.nav-ifldasb101 a.listitem span.sf-sub-indicator, #ifldasb101 .nbstyle2 li.nav-ifldasb101 a.firstitem span.sf-sub-indicator, .ifldasb101 .nbstyle2 li.nav-ifldasb101 a.firstitem span.sf-sub-indicator, #ifldasb101 .nbstyle2 li.nav-ifldasb101 a.lastitem span.sf-sub-indicator, .ifldasb101 .nbstyle2 li.nav-ifldasb101 a.lastitem span.sf-sub-indicator, #ifldasb156 .nbstyle2 li.nav-ifldasb156 a.listitem span.sf-sub-indicator, .ifldasb156 .nbstyle2 li.nav-ifldasb156 a.listitem span.sf-sub-indicator, #ifldasb156 .nbstyle2 li.nav-ifldasb156 a.firstitem span.sf-sub-indicator, .ifldasb156 .nbstyle2 li.nav-ifldasb156 a.firstitem span.sf-sub-indicator, #ifldasb156 .nbstyle2 li.nav-ifldasb156 a.lastitem span.sf-sub-indicator, .ifldasb156 .nbstyle2 li.nav-ifldasb156 a.lastitem span.sf-sub-indicator, #ifldasb174 .nbstyle2 li.nav-ifldasb174 a.listitem span.sf-sub-indicator, .ifldasb174 .nbstyle2 li.nav-ifldasb174 a.listitem span.sf-sub-indicator, #ifldasb174 .nbstyle2 li.nav-ifldasb174 a.firstitem span.sf-sub-indicator, .ifldasb174 .nbstyle2 li.nav-ifldasb174 a.firstitem span.sf-sub-indicator, #ifldasb174 .nbstyle2 li.nav-ifldasb174 a.lastitem span.sf-sub-indicator, .ifldasb174 .nbstyle2 li.nav-ifldasb174 a.lastitem span.sf-sub-indicator, #ifldasb181 .nbstyle2 li.nav-ifldasb181 a.listitem span.sf-sub-indicator, .ifldasb181 .nbstyle2 li.nav-ifldasb181 a.listitem span.sf-sub-indicator, #ifldasb181 .nbstyle2 li.nav-ifldasb181 a.firstitem span.sf-sub-indicator, .ifldasb181 .nbstyle2 li.nav-ifldasb181 a.firstitem span.sf-sub-indicator, #ifldasb181 .nbstyle2 li.nav-ifldasb181 a.lastitem span.sf-sub-indicator, .ifldasb181 .nbstyle2 li.nav-ifldasb181 a.lastitem span.sf-sub-indicator, #ifldasb170 .nbstyle2 li.nav-ifldasb170 a.listitem span.sf-sub-indicator, .ifldasb170 .nbstyle2 li.nav-ifldasb170 a.listitem span.sf-sub-indicator, #ifldasb170 .nbstyle2 li.nav-ifldasb170 a.firstitem span.sf-sub-indicator, .ifldasb170 .nbstyle2 li.nav-ifldasb170 a.firstitem span.sf-sub-indicator, #ifldasb170 .nbstyle2 li.nav-ifldasb170 a.lastitem span.sf-sub-indicator, .ifldasb170 .nbstyle2 li.nav-ifldasb170 a.lastitem span.sf-sub-indicator, #ifldasb103 .nbstyle2 li.nav-ifldasb103 a.listitem span.sf-sub-indicator, .ifldasb103 .nbstyle2 li.nav-ifldasb103 a.listitem span.sf-sub-indicator, #ifldasb103 .nbstyle2 li.nav-ifldasb103 a.firstitem span.sf-sub-indicator, .ifldasb103 .nbstyle2 li.nav-ifldasb103 a.firstitem span.sf-sub-indicator, #ifldasb103 .nbstyle2 li.nav-ifldasb103 a.lastitem span.sf-sub-indicator, .ifldasb103 .nbstyle2 li.nav-ifldasb103 a.lastitem span.sf-sub-indicator, #ifldasb109 .nbstyle2 li.nav-ifldasb109 a.listitem span.sf-sub-indicator, .ifldasb109 .nbstyle2 li.nav-ifldasb109 a.listitem span.sf-sub-indicator, #ifldasb109 .nbstyle2 li.nav-ifldasb109 a.firstitem span.sf-sub-indicator, .ifldasb109 .nbstyle2 li.nav-ifldasb109 a.firstitem span.sf-sub-indicator, #ifldasb109 .nbstyle2 li.nav-ifldasb109 a.lastitem span.sf-sub-indicator, .ifldasb109 .nbstyle2 li.nav-ifldasb109 a.lastitem span.sf-sub-indicator, #ifldasb110 .nbstyle2 li.nav-ifldasb110 a.listitem span.sf-sub-indicator, .ifldasb110 .nbstyle2 li.nav-ifldasb110 a.listitem span.sf-sub-indicator, #ifldasb110 .nbstyle2 li.nav-ifldasb110 a.firstitem span.sf-sub-indicator, .ifldasb110 .nbstyle2 li.nav-ifldasb110 a.firstitem span.sf-sub-indicator, #ifldasb110 .nbstyle2 li.nav-ifldasb110 a.lastitem span.sf-sub-indicator, .ifldasb110 .nbstyle2 li.nav-ifldasb110 a.lastitem span.sf-sub-indicator, #ifldasb157 .nbstyle2 li.nav-ifldasb157 a.listitem span.sf-sub-indicator, .ifldasb157 .nbstyle2 li.nav-ifldasb157 a.listitem span.sf-sub-indicator, #ifldasb157 .nbstyle2 li.nav-ifldasb157 a.firstitem span.sf-sub-indicator, .ifldasb157 .nbstyle2 li.nav-ifldasb157 a.firstitem span.sf-sub-indicator, #ifldasb157 .nbstyle2 li.nav-ifldasb157 a.lastitem span.sf-sub-indicator, .ifldasb157 .nbstyle2 li.nav-ifldasb157 a.lastitem span.sf-sub-indicator, #ifldasb111 .nbstyle2 li.nav-ifldasb111 a.listitem span.sf-sub-indicator, .ifldasb111 .nbstyle2 li.nav-ifldasb111 a.listitem span.sf-sub-indicator, #ifldasb111 .nbstyle2 li.nav-ifldasb111 a.firstitem span.sf-sub-indicator, .ifldasb111 .nbstyle2 li.nav-ifldasb111 a.firstitem span.sf-sub-indicator, #ifldasb111 .nbstyle2 li.nav-ifldasb111 a.lastitem span.sf-sub-indicator, .ifldasb111 .nbstyle2 li.nav-ifldasb111 a.lastitem span.sf-sub-indicator, #ifldasb112 .nbstyle2 li.nav-ifldasb112 a.listitem span.sf-sub-indicator, .ifldasb112 .nbstyle2 li.nav-ifldasb112 a.listitem span.sf-sub-indicator, #ifldasb112 .nbstyle2 li.nav-ifldasb112 a.firstitem span.sf-sub-indicator, .ifldasb112 .nbstyle2 li.nav-ifldasb112 a.firstitem span.sf-sub-indicator, #ifldasb112 .nbstyle2 li.nav-ifldasb112 a.lastitem span.sf-sub-indicator, .ifldasb112 .nbstyle2 li.nav-ifldasb112 a.lastitem span.sf-sub-indicator, #ifldasb146 .nbstyle2 li.nav-ifldasb146 a.listitem span.sf-sub-indicator, .ifldasb146 .nbstyle2 li.nav-ifldasb146 a.listitem span.sf-sub-indicator, #ifldasb146 .nbstyle2 li.nav-ifldasb146 a.firstitem span.sf-sub-indicator, .ifldasb146 .nbstyle2 li.nav-ifldasb146 a.firstitem span.sf-sub-indicator, #ifldasb146 .nbstyle2 li.nav-ifldasb146 a.lastitem span.sf-sub-indicator, .ifldasb146 .nbstyle2 li.nav-ifldasb146 a.lastitem span.sf-sub-indicator {
+    background-image: url('../images/sub-menu-arrow-brown.gif');
+    background-repeat: no-repeat;   
+}
+.nbstyle2 ul span.sf-sub-indicator {
+    position: absolute;
+    display: block;
+            right: 0.75em;    	
+        top: 50%;
+            width: 8px;
+        height: 13px;
+        margin-top: -6.5px;
+            text-indent:    -999em;
+    overflow:       hidden;
+}
+.nbstyle2 ul span.sf-sub-indicator { 
+    background-image: url('../images/sub-menu-arrow-green.gif');
+    background-repeat: no-repeat;
+}
+.nbstyle2 ul a:hover span.sf-sub-indicator, .nbstyle2 ul li:hover > a span.sf-sub-indicator {
+    background-image: url('../images/sub-menu-arrow-brown.gif');
+    background-repeat: no-repeat;
+}	
+
+.nbstyle2.sf-shadow ul {
+    background-image: url('../wrscripts/images/sfshadow.png'); 
+    background-repeat: no-repeat;
+            background-position: bottom right;
+        padding: 0 10px 10px 0;
+    }
+* html .nbstyle2.sf-shadow ul {
+    background: none;
+    padding: 0;
+}
+
+div#nbstyle2preload1 {background-image: url('../images/sub-menu-arrow-brown.gif'); background-repeat: no-repeat; background-position: -9999px -9999px;}	
+.hidethis {display: none;}

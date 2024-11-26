@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Payment Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("https://mjssm.me/images/login.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0 auto;
+        }
+
+        .banner {
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 400px;
+        }
+
+        .form-container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        .form {
+            text-align: center;
+        }
+
+        .dugmence {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        .dugmence:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://mjssm.me/images/banners/mjssm-280.png" alt="MJSSM Banner" class="banner" />
+        <div class="form-container">
+            <h1>Payment Form</h1>
+            <form action="https://www.2checkout.com/checkout/purchase" method="post" target="_blank" class="form">
+                <input type="hidden" name="sid" value="2091441" />
+                <input type="hidden" name="quantity" value="1" />
+                <input type="hidden" name="product_id" value="12" />
+                <input name="submit" type="submit" class="dugmence" value="Pay for MJSSM Submission" />
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+html, body {
+	height: 100%;
+}
+
+body {
+/*	background-color: rgba(44,62,80 , 0.6 );*/
+	font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+.countdown-container {
+	position: relative;
+	width: 500px;
+/*	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);*/
+}
+
+.clock-item .inner {
+	height: 0px;
+	padding-bottom: 100%;
+	position: relative;	
+	width: 100%;
+}
+
+.kockica {
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;	
+	width: 15%;
+}
+
+.clock-canvas {
+	background-color: rgba(28, 28, 28, .30);
+	border-radius: 50%;
+	height: 0px;
+	padding-bottom: 100%;
+}
+
+.text {
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;	
+	margin-top: -35px;
+	position: absolute;
+	line-height: 0;
+	top: 50%;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	width: 100%;
+}
+
+.text .val {
+	font-size: 26px;
+}
+
+.text .type-time {
+	font-size: 8px;
+}
+/*
+@media (min-width: 768px) and (max-width: 991px) {
+	.clock-item {
+		margin-bottom: 30px;		
+	}
+}*/
+/*
+@media (max-width: 767px) {
+	.clock-item {
+		margin: 0px 30px 30px 30px;
+	}
+}*/
