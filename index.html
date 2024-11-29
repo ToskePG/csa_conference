@@ -277,13 +277,22 @@
         #blog-button {
             position: absolute;
             left: 203px;
-            top: 1490px;
+            top: 1450px;
             width: 560px;
             height: 315px;
             display: flex;
             justify-content: center;
             align-items: center;
             margin-top: 20px;
+        }
+
+        #blog-text {
+            position: absolute;
+            left: 203px;
+            top: 1500px;
+            width: 560px;
+            height: 315px;
+            z-index: 26;
         }
 
         #wsbsrc10 {
@@ -370,6 +379,8 @@
             width: 520px;
             height: 100px;
             text-align: center;
+            pointer-events: auto; /* Ensures button is clickable */
+            z-index: 100000;
         }
 
         /* Hover effect */
@@ -587,8 +598,14 @@
                     allowfullscreen></iframe>
             </div>
 
+            <div id="blog-text">
+                <h1>
+                    You can follow all the news about the conference and MSA on our new blog! 
+                </h1>
+            </div>
+
             <div id="blog-button">
-                <a href="#" class="custom-button">
+                <a href="https://csakademija.me/blog/" class="custom-button" target="_blank">
                     <i class="icon blog-link-icon"></i>
                     Blog
                 </a>
