@@ -274,6 +274,14 @@
             z-index: 26;
         }
 
+        #blog-button {
+            position: absolute;
+            left: 203px;
+            top: 1450px;
+            width: 560px;
+            height: 315px;
+        }
+
         #wsbsrc10 {
             position: absolute;
             left: 202px;
@@ -341,6 +349,42 @@
             display: flex;
             gap: 20px;
         }
+
+        .custom-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            background-color: #2476aa;
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, trnasform 0,2s;
+            width: 200px;
+            text-align: center;
+        }
+
+        /* Hover effect */
+        .custom-button:hover {
+            background-color: #1b5c88; /* Darker blue */
+            transform: translateY(-2px); /* Slightly lift button on hover */
+        }
+
+/* Icon styling (replace with actual icons) */
+        .icon {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 20px; /* Adjust icon size */
+        }
+
+        /* Example icon for demonstration purposes */
+        .blog-link-icon::before {
+            content: "\1F4D2"; /* Unicode for external link symbol */
+        }
+
     </style>
     <!-- </head>
     <img src="images/slajder2019/01.jpg" alt="" width="970" height="300" /> -->
@@ -535,6 +579,13 @@
             <div id="wsbsrc1"><iframe width="560" height="315"
                     src="https://www.youtube.com/embed/GyyW5GssEJ8?rel=0&amp;showinfo=0" frameborder="0"
                     allowfullscreen></iframe>
+            </div>
+
+            <div id="blog-button">
+                <a href="#" class="custom-button">
+                    <i class="icon blog-link-icon"></i>
+                    Blog
+                </a>
             </div>
 
             <img id="twsbimg6" src="images/footer2022new.jpg" alt="" width="960" height="118" />
